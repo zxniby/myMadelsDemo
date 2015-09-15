@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">myMedalsDemo</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="celtes">This is Boston Celtes</string>
+    <string name="bulls">This is Chicago bulls</string>
+    <string name="bucks">This is Milwaukee bucks</string>
+    <string name="spurs">This is San Antonio spurs</string>
+    <string name="cavaliers">This is Cleveland cavaliers</string>
+</resources>
