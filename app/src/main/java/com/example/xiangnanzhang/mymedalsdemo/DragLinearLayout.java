@@ -150,8 +150,9 @@ public class DragLinearLayout extends LinearLayout {
                 if (Math.abs(velocityY) > mMinimumVelocity) {
                     boolean toTop = velocityY > 0;
                     PalLog.printI("greater than mMinimumVelocity");
-                    scrollToTop(toTop);
-//                    mScroller.fling(0, mScrollY, 0,-velocityY*2,0,0,0,mHeight);
+//                    scrollToTop(toTop);
+                    
+                    mScroller.fling(0, mScrollY, 0,-velocityY*2,0,0,0,mHeight);
                     invalidate();
                 } else {
                     //根据已经滑动的距离来判断
